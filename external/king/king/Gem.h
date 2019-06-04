@@ -46,7 +46,6 @@ namespace King
          Color m_Color;
          State m_State;
          Sprite* m_Sprite;
-         uint32_t m_Value;
 
          // flag that indicates whether the gem is currently used or not
          bool m_IsInUse;

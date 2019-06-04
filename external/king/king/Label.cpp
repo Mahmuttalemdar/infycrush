@@ -6,7 +6,6 @@
 namespace King
 {
    Label::Label(const int& size) :
-      m_Size(size),
       m_Color( {255, 255, 255} ),
       m_Renderer(Application::GetInstance()->GetRenderer())
    {

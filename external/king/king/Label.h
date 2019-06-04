@@ -29,8 +29,6 @@ namespace King
          void Render();
 
       private:
-         // font size in points
-         int m_Size;
          // true type font
          TTF_Font* m_Font;
          SDL_Color m_Color;

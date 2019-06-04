@@ -1,10 +1,5 @@
 #include <king/Application.h>
 
-#ifdef _DEBUG
-	// visual leak detector for msvc compiler
-	#include <vld.h>
-#endif
-
 int main(int argc, char *argv[])
 {
     // get main application instance & start it

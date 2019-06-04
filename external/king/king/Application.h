@@ -73,7 +73,6 @@ namespace King
          // basic SDL stuff
          SDL_Window* m_Window = nullptr;
          SDL_Renderer* m_Renderer = nullptr;
-         SDL_Surface* m_MainSurface = nullptr;
          std::unique_ptr<Sprite> m_Background;
 
          //target framerate

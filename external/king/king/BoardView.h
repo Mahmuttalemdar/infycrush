@@ -150,7 +150,6 @@ namespace King
 
          // track selection
          int m_FirstCell;
-         int m_SecondCell;
 
          std::unique_ptr<Gem> m_HoveredGem;
 
