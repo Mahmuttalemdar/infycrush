@@ -1,7 +1,7 @@
 #include <king/Application.h>
 
 #ifdef _DEBUG
-	// visual leak detector
+	// visual leak detector for msvc compiler
 	#include <vld.h>
 #endif
 

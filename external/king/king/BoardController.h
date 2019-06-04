@@ -18,23 +18,23 @@ namespace King
          virtual ~BoardController();
 
          /*! \brief The various states of the board
-       *
-       */
+         *
+         */
          enum class BoardState { Uninitialized, Freeze, Ready, GemsSwapped, GemsSelected, SequenceDetected, SequencesRemoved, GemsDopped };
 
          /*! \brief Initialized the board with a fresh set of gems
-       *
-       */
+         *
+         */
          void Initialize();
 
          /*! \brief Freezes board: logic is no longer processed and user input gets disables
-       *
-       */
+         *
+         */
          void Freeze(const bool& isFreezed);
 
          /*! \brief Processes the game logic
-       *
-       */
+         *
+         */
          void Update();
 
          /*! Returns a pointer to the board view	*/

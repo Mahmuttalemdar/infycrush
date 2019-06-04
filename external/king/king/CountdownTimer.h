@@ -19,9 +19,9 @@ namespace King
          virtual ~CountdownTimer();
 
          /*! \brief Set the countdown interval
-       *
-       * \param interval The interval in milliseconds
-       */
+         *
+         * \param interval The interval in milliseconds
+         */
          void SetInterval(uint32_t const& interval);
 
          /*! Starts  timer */

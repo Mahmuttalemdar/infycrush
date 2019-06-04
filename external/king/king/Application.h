@@ -19,8 +19,8 @@ namespace King
    class CountdownTimer;
 
    /*! Central Application class
-*	Sets up the whole application and runs the main logic and rendering loop
-*/
+   *	Sets up the whole application and runs the main logic and rendering loop
+   */
    class Application
    {
 
